@@ -27,6 +27,6 @@ import java.util.*;
             start++;
         }
        }
-       return new int[]{-1,-1};
+       throw new IllegalArgumentException("Sum not found");
     }
 }

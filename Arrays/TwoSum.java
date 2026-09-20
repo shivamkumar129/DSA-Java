@@ -25,6 +25,8 @@ class TwoSum {
            return new int[]{i,j};
         }
     }
+   
+      
     throw new IllegalArgumentException("Solution not found");
  }
 }
