@@ -15,6 +15,7 @@ public static void main(String[] args) {
     System.out.println("size of subarray :");
     int k=sc.nextInt();
     System.out.println(MaxPointsCard(arr,k));
+    sc.close();
 }
 
 private static int MaxPointsCard(int[] arr,int k) {
